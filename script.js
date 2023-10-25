@@ -19,7 +19,7 @@ function getApi() {
 
                 let characterInfo = `${characterName} Biometric Data:\n\n`;
 
-                for (const prop in properties) {
+                for (const prop in properties) { // loops through all properties to display all
                     characterInfo += `${prop}: ${properties[prop]}\n`;
                 }
 
